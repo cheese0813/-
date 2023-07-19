@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>易班操作系统登录</title>
+    <link rel="icon" href="/static/favicon.ico" >
+    <style>
+        .c1{
+            color: #098dd5;
+        }
+        .c2{
+            height: 30px;
+            font-size: 15px;
+            width: 200px;
+            border: solid 1px aliceblue;
+            background: aliceblue;
+            border-radius: 3px;
+        }
+        .submit{
+            height: 40px;
+            width: 100px;
+            background: #098dd5;
+            border: #098dd5;
+            font-weight: bold;
+            color: aliceblue;
+            border-radius: 3px;
+        }
+        .c3{
+            height: 30px;
+            font-size: 15px;
+            width: 200px;
+            border: solid 1px red;
+            background: aliceblue;
+            border-radius: 3px;
+        }
+        body{
+            margin: 0;
+        }
+        .submit:hover{
+            height: 41px;
+            width: 103px;
+            background: #098dd5;
+            border: #098dd5;
+            font-weight: bold;
+            color: aliceblue;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center" style="margin: 0">
+    <a href="https://www.yooc.me/youke2023" >
+    <img src="/static/230519102311942690.jpg">
+    </a>
+</h1>
+</body>
+<h1 class="c1" align="center" style="height: 100px;">
+    <strong>
+    <a>长沙航空职业技术学院
+        易班管理员登录</a>
+    </strong>
+</h1>
+<form method="POST" action='/login'>
+<h2 align="center">
+    账号：<input type="text" class="c2" name="user_name">
+</h2>
+<h2 align="center">
+       密码：<input type="password" class="c3" name="pwd">
+    <h5 align="center" style="height: 5px;color: red">账号或密码错误</h5>
+</h2>
+<h2 align="center">
+<input type="submit" value="登录" class="submit">
+</h2>
+</form>
+
+</html>
